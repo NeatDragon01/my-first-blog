@@ -9,57 +9,12 @@
         </header>
         
         <!---Article 1-->
-            {% for post in posts %}
-                <article>
-                    <time>published: {{ post.published_date}}</time>
-                    <h2><a href="">{{ post.title }}</a></h2>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </article>
-        
-
-        <!---Article 2-->
-        
-                <article>
-                    <time>published: {{ post.published_date}}</time>
-                    <h2><a href="">{{ post.title }}</a></h2>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </article>
-        
-
-        <!---Article 3-->
-       
-                <article>
-                    <time>published: {{ post.published_date}}</time>
-                    <h2><a href="">{{ post.title }}</a></h2>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </article>
-        
-
-        <!---Article 4-->
-        
-                <article>
-                    <time>published: {{ post.published_date}}</time>
-                    <h2><a href="">{{ post.title }}</a></h2>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </article>
-            
-
-            <!---Article 5-->
-        
-                <article>
-                    <time>published: {{ post.published_date}}</time>
-                    <h2><a href="">{{ post.title }}</a></h2>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </article>
-            
-
-            <!---Article 6-->
-            
-                <article>
-                    <time>published: {{ post.published_date}}</time>
-                    <h2><a href="">{{ post.title }}</a></h2>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </article>
+        {% for post in posts %}
+            <article>
+                <time>published: {{ post.published_date}}</time>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </article>
         {% endfor %}
     </body>
 </html>
